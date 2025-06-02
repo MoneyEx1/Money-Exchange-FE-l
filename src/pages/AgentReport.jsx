@@ -55,7 +55,7 @@ const currencyDataA = [
       action: "Edit/Delete",
     },
   ];
-  
+
 
 const columnsA = [
     { key: "date", title: "Date" },
@@ -71,6 +71,7 @@ const columnsA = [
     { key: "action", title: "Action" },
   ];
 
+  
 const dropdownOptions = ["Daily", "Between", "Monthly"];
 
 const AgentReport = () => {
