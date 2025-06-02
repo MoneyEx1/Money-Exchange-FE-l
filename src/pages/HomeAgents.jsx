@@ -16,7 +16,7 @@ const currencyList = [
   { flag: "🇨🇳", code: "CNY" },
 ];
 
-const Home = () => {
+const HomeAgents = () => {
   const [customerType, setCustomerType] = useState("new");
   const [search, setSearch] = useState("");
   const [selectedCustomer, setSelectedCustomer] = useState("");
@@ -72,7 +72,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-6">
           <div className="flex-1 flex justify-center md:justify-start">
             <div className="bg-gradient-to-r from-indigo-500 to-sky-400 text-white font-semibold rounded-xl px-6 py-3 text-lg shadow-md">
-              For Customer Exchange
+              For Agents Exchange
             </div>
           </div>
           <div className="flex-1 flex justify-center md:justify-end">
@@ -219,7 +219,7 @@ const Home = () => {
                 className="accent-indigo-500 w-5 h-5"
               />
               <span className="bg-white px-4 py-2 rounded-lg font-medium shadow text-slate-700">
-                New Customer
+                New Agents
               </span>
             </label>
             <label className="flex items-center gap-2 cursor-pointer">
@@ -234,7 +234,7 @@ const Home = () => {
                 className="accent-indigo-500 w-5 h-5"
               />
               <span className="bg-white px-4 py-2 rounded-lg font-medium shadow text-slate-700">
-                Select Customer
+                Select Agents
               </span>
             </label>
           </div>
@@ -243,7 +243,7 @@ const Home = () => {
             {customerType === "new" ? (
               <input
                 type="text"
-                placeholder="Customeraa Name"
+                placeholder="Customer Name"
                 className="flex-1 bg-white text-slate-800 font-semibold px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
               />
             ) : (
@@ -510,4 +510,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeAgents;
