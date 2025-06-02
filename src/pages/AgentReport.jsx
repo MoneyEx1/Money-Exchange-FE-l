@@ -71,7 +71,6 @@ const columnsA = [
     { key: "action", title: "Action" },
   ];
 
-  
 const dropdownOptions = ["Daily", "Between", "Monthly"];
 
 const AgentReport = () => {
