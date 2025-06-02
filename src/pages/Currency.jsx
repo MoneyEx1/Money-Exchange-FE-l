@@ -113,6 +113,7 @@ const Currency = () => {
 
   return (
     <>
+    
       <div className="min-h-screen flex flex-col justify-start items-center lg:ml-64 bg-gradient-to-br from-sky-200 via-indigo-100 to-purple-200">
         <div className="px-3 flex flex-col gap-3 md:flex-row items-start md:justify-between w-full  mb-8 mt-8">
           <div className="text-black py-4 rounded-2xl text-3xl font-serif font-extrabold">
