@@ -55,6 +55,7 @@ const currencyDataA = [
       action: "Edit/Delete",
     },
   ];
+  
 
 const columnsA = [
     { key: "date", title: "Date" },
